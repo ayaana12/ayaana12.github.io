@@ -1,19 +1,178 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <style>
+        body{
+            margin: 0;
+            padding:0 ;
+        }
 
-<h2>HTML Forms</h2>
+        .list li{
+            list-style:none;
+        }
+       
+        .list ul{
+            display: flex;
+            margin-top: -20px;
+            margin-left:400px;
+        }
+        .list ul li{
+            margin-left: 20px;
+            
+           
+        }
+        #btn{
+            background-color: rgb(75, 189, 189);
+        }
+        #btn{
+   width: 150px;
+   padding: 5px;
+   background: rgb(34, 167, 229);
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 20px;
+}
+        .box1{
+            line-height: 30px;
+           
+        }
+       
+       .ayy{
+        display: flex;
+        flex-direction: row;
+        margin-left: 90px;
+       }
+        .list img{
+            margin-top: 10px;
+           
+        }
+.box1 img{
+    width: 320px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.side{
+    padding-top: 200px;
+    margin-left: 50px;
+}
+.side button{
+    background-color: blue;
+    padding: 0px;
+    width: 330px;
+    height: 50px;
+    color: white; 
+    border: none;
+    border-radius: 10px;
+ 
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last namesssssssssss:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+}
+    
+.container{
+    background-color: rgb(224, 237, 237);
+    font-size: 20px;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+}
+ .container #logo{
+    margin: 20px;
+ }
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+.container ul{
+    display: inline-flex;
+    margin: 20px;
+    float: right;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.container ul li {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.container ul li select  {
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+}</style>
+        </head>
+        <body>
+            <div class="main">
+            
+            
+                <div class="container">
+                    <img src="logo.png" id="logo"> 
+                    <ul>
+                        <li><select><option>Home</option>></select></li>
+                        <li><select><option>Buy</option>></select></li>
+                        <li><select><option>Sell</option>></select></li>
+                        <li><a href="#">listing</a></li>
+                        <li><select><option>Support</option>></select></li>
+                        <li><a href="#">Blog</a></li>
+                        <li id="login"><i class="fa-solid fa-arrow-right-to-bracket icon"></i>login</li>
+                        <li><button id="btn"><i class="fa-solid fa-user icon"></i>Register</button></li>
+                        <li><select><option>English</option>></select></li>
+                        
+        
+                    </ul>
+        
+        
+                </div>
+        <div class="side">
+         
+            <button> first orden and your get up$20 free btc as reword</button>
+            <h1>atrusted and secure <br>
+            cryptocurrency exchange</h1>
+            <p> Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit. Mollitia fugiat <br>
+                eius eos dolor esse, quisquam molestiae at animi velit tenetur porro.</p>
+                <img src="pow.PNG" alt=""id="s">
+        </div>
 
-</body>
-</html>
 
+
+        <div class="ayy">
+            <div class="box1">
+                <img src="./14.jpg" alt="">
+            <h1> the global leader of<br> social trading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit Odit distinctio
+                 earum placeat ad omnis nam,<br> qui nostrum molestiae nulla reprehenderi </p>
+                 </div>
+        
+                 <div class="box1">
+                    <img src="./14.jpg" alt="">
+                    <h1>start instantly</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit<br>
+                         Accusamus provident error facere numquam temporibus <br>
+                          officiis, sint praesentium nulla consequuntur adjjj<br>
+                          Lorem, ipsum dolor sit amet consectetur adipisicing <br> 
+
+
+                    </p>
+                    </div>
+                 <div class="box1">
+                    <img src="./14.jpg" alt="">
+                    <h1>Easy to use</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit<br>
+                         Accusamus provident error facere numquam temporibus <br>
+                          officiis, sint praesentium nulla consequuntur adjjj<br>
+                          Lorem, ipsum dolor sit amet consectetur adipisicing <br>
+                    </p>
+                 </div>
+                </div> 
+   </div>
+        </body>
+        </html>
